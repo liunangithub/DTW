@@ -44,7 +44,7 @@ if __name__=="__main__":
     ##测试数据
     inputs=np.array([1.1,0.3])
     ##最近邻的个数
-    K=3  
+    K=3
     output=classify(inputs,dataSet,labels,K)
 
     print("分类结果",output)
